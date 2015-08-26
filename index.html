@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link href = "index.css" rel = "stylesheet">
+</head>
+<body>
+
+
+
+  <header>
+      <input id ="search"/>
+        <input type = "button" onclick="doSearch()"/>
+      <div id = "results"></div>
+  </header>
+
+  <div id="state-container">
+  </div>
+
+
+  <template id="state-template">
+    <div class="state">
+      <div class="statename">{{ state }}</div>
+    </div>
+  </template>
+
+
+
+  <script src="libs/underscore.js"></script>
+  <script src="libs/jquery.js"></script>
+  <script src="libs/handlebars.js"></script>
+  <script src="libs/backbone.js"></script>
+  <script src="visme.js"></script>
+
+</body>
+</html>
